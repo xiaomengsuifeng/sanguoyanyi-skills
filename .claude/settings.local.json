@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.gutenberg.org)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh search *)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/ITNVF/chinese-novels/master/README.md\")",
+      "Bash(curl -L -o /Users/MXH/Desktop/test/sanguoyanyi-skills/sanguoyanyi.txt \"https://www.xiaohuangren.com/houtai.php?action=down&articleid=101\")",
+      "Bash(curl -sI \"https://ctext.org/zhooyyan/\")",
+      "Bash(curl -sL \"https://ctext.org/zhooyyan/zh\")",
+      "Bash(python3 extract_liubei.py)",
+      "Bash(ln -s /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/曹操/yuanzhu/yuanzhu)",
+      "Bash(ln -s /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/关羽/yuanzhu/yuanzhu)",
+      "Bash(ln -s /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/张飞/yuanzhu/yuanzhu)",
+      "Bash(ln -s /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/诸葛亮/yuanzhu/yuanzhu)",
+      "Bash(python3 曹操/extract_caocao.py)",
+      "Bash(python3 关羽/extract_guanyu.py)",
+      "Bash(python3 张飞/extract_feizhang.py)",
+      "Bash(python3 诸葛亮/extract_zhugeliang.py)",
+      "Bash(python3 *)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/关羽/yuanzhu/)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/张飞/yuanzhu/)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/诸葛亮/yuanzhu/)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/周瑜/yuanzhu/)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/孙权/yuanzhu/)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/司马懿/yuanzhu/)",
+      "Bash(xargs -n1 basename)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/鲁肃/yuanzhu/)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/姜维/yuanzhu/)",
+      "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/庞统/yuanzhu/)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)"
+    ]
+  }
+}
