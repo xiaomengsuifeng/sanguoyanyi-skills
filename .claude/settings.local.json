@@ -30,7 +30,10 @@
       "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/姜维/yuanzhu/)",
       "Bash(cp /Users/MXH/Desktop/test/sanguoyanyi-skills/yuanzhu/*.txt /Users/MXH/Desktop/test/sanguoyanyi-skills/roles/庞统/yuanzhu/)",
       "Bash(gh auth *)",
-      "Bash(brew install *)"
+      "Bash(brew install *)",
+      "Bash(git status *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
